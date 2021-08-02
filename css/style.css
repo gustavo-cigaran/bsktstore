@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+
+body {
+    background-color: #F8F8FF;
+}
+
+/* NavBar */
+.titulo-home {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #ffff;
+    text-shadow: 0px 0px 5px black;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+h1 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #fff;
+    text-shadow: 0px 0px 5px black;
+}
+
+h3 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #ffda1c;
+    text-shadow: 0px 0px 5px black;
+}
+
+h4 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #ffff;
+    text-shadow: 0px 0px 5px black;
+}
+
+.nav-wrapper {
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-logo {
+    position: relative;
+    width: 200px;
+    height: 64px;
+}
+
+.brand-logo img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img:hover{
+    background-color: rgba(0,0,0,0);
+}
+
+.hide-on-med-and-down a:hover {
+    background-color: #ffda1c;
+}
+
+/* Home */
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+.btn {
+    background-color: #ffda1c;
+    color: black;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #CDAD00;
+}
+
+/* Section */
+section {
+    width: 100%;
+}
+
+.carousel {
+    background-color: black;
+}
+
+/* Produtos */
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.produto {
+    width: 23%;
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    padding: 3%;
+    box-shadow: 0px 0px 1px #ffda1c;
+}
+
+.produto:hover {
+    box-shadow: 0px 0px 11px #ffda1c;
+}
+
+.produto h5 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: black;
+    text-shadow: 0px 0px 1px #ffda1c;
+    text-transform: uppercase;
+}
+
+.span {
+    width: 100%;
+    padding: 2%;
+    font-weight: bold;
+    color: black;
+}
+
+.produto img {
+    width: 100%;
+}
+
+/* Footer */
+
+.page-footer {
+    font-family: 'Baloo Tammudu 2', cursive;
+    background-color: black;
+}
+
+#footer {
+    font-size: 1.3em;
+}
+
+.page-footer li a {
+    color: #fff;
+}
+
+.page-footer li a:hover {
+    color: #ffda1c;
+}
+
+.footer-copyright {
+    font-family: sans-serif;
+}
+
+/* Contato */
+.contato {
+    width: 100%;
+    padding: 1%;
+}
+
+.titulo-contato {
+    text-align: center;
+}
+
+#pagina {
+    width: 80%;
+    margin: 1% auto;
+    border-style: solid;
+    box-shadow: 0 0 10px #ffda1c;
+}
+
+.pergunta {
+    text-align: center;
+}
+
+.pergunta h5 {
+    padding: 1%;
+}
+
+.pergunta label {
+    padding: 2%;
+}
+
+label {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-field input:focus + label {
+    color: #ffda1c !important;
+}
+  
+.row .input-field input:focus, textarea:focus{
+    border-bottom: 1px solid #ffda1c !important;
+    box-shadow: 0 1px 0 0 #ffda1c !important
+}
+
+#btnEnviar {
+    font-family: sans-serif;
+	font-size: 20px;
+	background-color: #ffda1c;
+	color: #000000;
+	border: 0px;
+	border-radius: 3px;
+	padding: 2% 12%;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#btn-form {
+    display: flex;
+    justify-content: center;    
+}
+
+.button-quiz {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+/* Quiz */
+.quiz {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.question{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1.4em;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label{
+    display: block;
+}
+
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #ffda1c;
+	color: #000000;
+	border: 0px;
+	border-radius: 3px;
+	padding: 2%;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#submit:hover{
+	background-color: #CDAD00;
+}
+
+#voltar {
+    text-decoration: none;
+    font-family: sans-serif;
+	font-size: 20px;
+	background-color: #000000;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 2%;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#voltar:hover{
+	background-color: #363636;
+}
+
+.botoes {
+    padding-top: 2%;
+}
+
+/* Sobre */
+
+.galeria {
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 0 4px; 
+}
+
+.titulo-sobre {
+    text-align: center;
+    padding: 2%;
+}
+  
+.coluna1 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.coluna1 img {
+    margin-top: 8px; 
+    vertical-align: middle; 
+}
+
+
+
+/* Medias */
+
+@media screen and (max-width: 480px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .produto {
+        width: 80%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .carousel h3 {
+        font-size: 8vw;
+    }
+
+    .carousel h4 {
+        font-size: 4.5vw;
+    }
+
+    .titulo-home {
+        font-size: 8vw;
+        text-align: center;
+        padding-top: 4%;
+    }
+
+    .button {
+        padding: 5%;
+        justify-content: center;
+    }
+
+    .header {
+        font-size: 12vw;
+    }
+
+    .pergunta label {
+        display: flex;
+    }
+
+    .button-quiz {
+        padding-bottom: 5%;
+    }
+
+    .quiz h1{
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    .question {
+        font-size: 4vw;
+    }
+
+    .titulo-sobre {
+        text-align: center;
+    }
+
+    .coluna1 {
+        flex: 100%; /*Uma imagem 100%*/
+        max-width: 100%;
+      }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    .produto {
+        width: 43%;
+    }
+
+    .carousel h3 {
+        font-size: 6vw;
+    }
+
+    .carousel h4 {
+        font-size: 4.5vw;
+    }
+
+    .titulo-sobre {
+        text-align: center;
+    }
+
+    .coluna1 {
+        flex: 50%;
+        max-width: 50%;
+      }
+}
