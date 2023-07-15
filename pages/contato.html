@@ -1,168 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Gustavo Cigaran">
-    <meta name="description"
-        content="A BSKT Store é uma loja online que tem como objetivo ter de tudo que for relacionado ao basquete, esporte que conquista mais e mais pessoas ao longo do tempo.">
-    <meta name="keywords" content="NBA, basquete, Jordan, loja, tênis">
-    <!-- Google Icon Font -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Materialize CSS -->
-    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" />
-    <!-- Custom CSS -->
-    <link type="text/css" rel="stylesheet" href="../css/style.css">
-    <!-- Custom JS -->
-    <link type="text/javascript" rel="stylesheet" href="../js/validacao.js">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="../img/logo/favicon.ico" type="image/x-icon">
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Contato | BSKT Store</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gustavo Cigaran">
+  <meta name="description" content="A BSKT Store é uma loja online que tem como objetivo ter de tudo que for relacionado ao basquete, esporte que conquista mais e mais pessoas ao longo do tempo.">
+  <meta name="keywords" content="NBA, basquete, Jordan, loja, tênis">
+  <!-- Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" />
+  <!-- Custom CSS -->
+  <link type="text/css" rel="stylesheet" href="../css/style.css">
+  <!-- Custom JS -->
+  <link type="text/javascript" rel="stylesheet" href="../js/validacao.js">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/logo/favicon.ico" type="image/x-icon">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Contato | BSKT Store</title>
 </head>
-
 <body>
-    <header>
-
-    </header>
+  <header>
     <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="../index.html" class="brand-logo">
-                    <img id="logo" src="../img/logo/logo-horizontal.png" alt="Logo da Empresa" width="280">
-                </a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                        <li><a href="sobre.html">Quem Somos</a></li>
-                    </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo">
+            <img id="logo" src="../img/logo/logo-horizontal.png" alt="Logo da Empresa" width="280">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Quem Somos</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
+  </header>
 
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="sobre.html">Quem Somos</a></li>
-    </ul>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="produtos.html">Produtos</a></li>
+    <li><a href="contato.html">Contato</a></li>
+    <li><a href="sobre.html">Quem Somos</a></li>
+  </ul>
 
-    <section>
-
-        <!-- Formulário -->
-        <h4 class="titulo-contato">Entre em contato</h4>
-        <div id="pagina">
+  <main>
+    <!-- Form -->
+    <section class="contact">
+      <h4 class="contact__title">Entre em contato</h4>
+      <div class="contact__page">
+        <div class="contact__page__form row">
+          <form id="dados" class="contact__form col s12" name="form" method="P" onSubmit="enviar()">
             <div class="row">
-                <form id="dados" class="col s12" name="form" method="P" onSubmit="enviar()">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <label for="first_name">Nome</label>
-                            <input id="first_name" type="text" name="nome" class="validate" required>
-                        </div>
-                        <div class="input-field col s6">
-                            <label for="last_name">Sobrenome</label>
-                            <input id="last_name" type="text" name="sobrenome" class="validate" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <label for="email">Email</label>
-                            <input id="email" type="email" name="email" class="validate" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <label for="textarea2">Sugestão</label>
-                            <textarea id="textarea2" class="materialize-textarea" name="caixa"
-                                data-length="120"></textarea>
-                        </div>
-                    </div>
-                    <div class="pergunta">
-                        <h5>Quais produtos você gostaria que a gente trouxesse para a BSKT Store?</h5>
-                        <p>
-                            <label>
-                                <input type="checkbox" />
-                                <span>Bolas Oficiais</span>
-                            </label>
-                            
-                            <label>
-                                <input type="checkbox" />
-                                <span>Mochilas</span>
-                            </label>
-                            
-                            <label>
-                                <input type="checkbox" />
-                                <span>Posters</span>
-                            </label>
-                        </p>
-                    </div>
-                        <div id="btn-form">
-                            <input id="btnEnviar" type="submit" onclick="return validacao()" value="Enviar" />
-                        </div>
-                </form>
+              <div class="input-field col s6">
+                <label for="first_name">Nome</label>
+                <input id="first_name" type="text" name="nome" class="validate" required>
+              </div>
+              <div class="input-field col s6">
+                <label for="last_name">Sobrenome</label>
+                <input id="last_name" type="text" name="sobrenome" class="validate" required>
+              </div>
             </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" class="validate" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <label for="textarea2">Sugestão</label>
+                <textarea id="textarea2" class="materialize-textarea" name="caixa" data-length="120" maxlength="120"></textarea>
+              </div>
+            </div>
+            <div class="contact__form__question">
+              <h5>Quais produtos você gostaria que a gente trouxesse para a BSKT Store?</h5>
+                <p>
+                  <label>
+                    <input type="checkbox">
+                    <span>Bolas Oficiais</span>
+                  </label>
+                  
+                  <label>
+                    <input type="checkbox">
+                    <span>Mochilas</span>
+                  </label>
+                  
+                  <label>
+                    <input type="checkbox">
+                    <span>Posters</span>
+                  </label>
+                </p>
+            </div>
+            <div id="contact__form__button">
+              <input class="contact__form__submit" type="submit" onclick="return validacao()" value="Enviar">
+            </div>
+          </form>
         </div>
-        <div class="row container ">
-            <h2 class="header">Não vá embora ainda...</h2>
-            <p class="grey-text text-darken-3 lighten-3">Esta afim de testar seus conhecimentos???</p>
-            <p>Clica nesse botãozinho abaixo e vamos ver se você realmente conhece o mundo do basquete!!!😜</p>
+      </div>
+      <div class="quiz__page">
+        <h2 class="header">Não vá embora ainda...</h2>
+        <p class="grey-text text-darken-3 lighten-3">Esta afim de testar seus conhecimentos???</p>
+        <p>Clica nesse botãozinho abaixo e vamos ver se você realmente conhece o mundo do basquete!!!😜</p>
+        <div class="quiz__button">
+          <a href="quiz.html" class="waves-effect waves-light btn">Participar</a>
         </div>
-
-        <div class="button-quiz">
-            <a href="quiz.html" class="waves-effect waves-light btn">Participar</a>
-        </div>
+      </div>
     </section>
+  </main>
 
-    <footer class="page-footer">
-        <div class="container">
-            <div id="footer" class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">BSKT STORE</h5>
-                    <p class="grey-text text-lighten-4">A Loja que ama quem ama basquete!</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Acesse:</h5>
-                    <ul>
-                        <li><a class="text-lighten-3" href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                        <li><a class="text-lighten-3" href="https://www.instagram.com" target="_blank">Instagram</a>
-                        </li>
-                        <li><a class="text-lighten-3" href="https://www.twitter.com" target="_blank">Twitter</a></li>
-                    </ul>
-                </div>
-            </div>
+  <footer class="footer__page">
+    <div id="footer__container" class="container">
+      <div id="footer" class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">BSKT STORE</h5>
+          <p class="grey-text text-lighten-4">A Loja que ama quem ama basquete!</p>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2021 GC Web Design
-                <a class="grey-text text-lighten-4 right" href="#">Voltar ao topo</a>
-            </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Acesse:</h5>
+            <ul>
+              <li><a class="text-lighten-3" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+              <li><a class="text-lighten-3" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+              <li><a class="text-lighten-3" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            </ul>
         </div>
-    </footer>
-    <script src="../js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.sidenav ').sidenav();
-        });
+      </div>
+    </div>
+      <div class="footer-copyright">
+        <div class="container grey-text text-lighten-4">
+          © 2021 GC Web Design
+          <a class="grey-text text-lighten-4 right" href="#">Voltar ao topo</a>
+        </div>
+      </div>
+  </footer>
+  <!-- Materialize JS -->
+  <script src="../js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav ').sidenav();
+    });
 
-        $(document).ready(function () {
-            $('input#input_text, textarea#textarea2').characterCounter();
-        });
+    $(document).ready(function () {
+      $('input#input_text, textarea#textarea2').characterCounter();
+    });
 
-        function enviar() {
-            var nome = document.getElementById("first_name").value;
-            var email = document.getElementById("email").value;
-            var sobrenome = document.getElementById("last_name").value;
-            var texto = document.getElementById("textarea2").value;
+    function enviar() {
+      var nome = document.getElementById("first_name").value;
+      var email = document.getElementById("email").value;
+      var sobrenome = document.getElementById("last_name").value;
+      var texto = document.getElementById("textarea2").value;
 
-            alert('Obrigado sr(a) ' + nome + ' os seus dados foram encaminhados com sucesso');
-        }
-    </script>
-
+      alert('Obrigado sr(a) ' + nome + ' os seus dados foram encaminhados com sucesso');
+    }
+  </script>
 </body>
-
 </html>

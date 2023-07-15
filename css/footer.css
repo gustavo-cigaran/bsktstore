@@ -1,0 +1,24 @@
+.footer__page {
+  font-family: 'Baloo Tammudu 2', cursive;
+  background-color: black;
+}
+
+.footer__page li a {
+  color: #fff;
+}
+
+.footer__page li a:hover {
+  color: #ffda1c;
+}
+
+#footer__container {
+  padding: 5% 0%;
+}
+
+#footer {
+  font-size: 1.3em;
+}
+
+.footer-copyright {
+  font-family: sans-serif;
+}

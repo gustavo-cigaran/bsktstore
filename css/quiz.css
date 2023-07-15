@@ -1,0 +1,63 @@
+/* Quiz */
+.quiz {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.quiz h1 {
+  font-size: 2em;
+}
+
+.question{
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 1.4em;
+}
+
+.answers {
+  margin-bottom: 20px;
+}
+
+.answers label{
+  display: block;
+}
+
+.quiz__group {
+  padding: 2% 0;
+}
+
+#results {
+  float: right;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 1.4em;
+}
+
+#submit{
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #ffda1c;
+  color: #000000;
+  border-radius: 3px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: #CDAD00;
+}
+
+#voltar {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #000000;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+#voltar:hover{
+  background-color: #363636;
+}

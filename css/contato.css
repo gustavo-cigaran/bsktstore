@@ -1,0 +1,71 @@
+/* Contato */
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+.contact__page {
+  width: 80%;
+  margin: 1% auto;
+  border-style: solid;
+  text-align: center;
+  box-shadow: 0 0 10px #ffda1c;
+}
+
+.contact__page__form {
+  margin: 2%;
+}
+
+.input-field input:focus + label {
+  color: #ffda1c !important;
+}
+  
+.row .input-field input:focus, textarea:focus{
+  border-bottom: 1px solid #ffda1c !important;
+  box-shadow: 0 1px 0 0 #ffda1c !important
+}
+
+.contact__form__question h5 {
+  padding: 1%;
+}
+
+.contact__form__question label {
+  padding: 2%;
+}
+
+label {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact__form__button {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__form__submit {
+  font-family: sans-serif;
+	font-size: 20px;
+	background-color: #ffda1c;
+	color: #000000;
+	border: 0px;
+	border-radius: 3px;
+	padding: 2% 12%;
+	cursor: pointer;
+  margin: 2%;
+}
+
+.quiz__page {
+  margin: 4% auto;
+}
+
+.quiz__button{
+  display: flex;
+  justify-content: center;
+  padding: 4%;
+}
