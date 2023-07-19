@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 @import url("contato.css");
 @import url("footer.css");
@@ -136,32 +136,6 @@ span {
   .carousel h4 {
     font-size: 4.5vw;
   }
-
-  .pergunta label {
-    display: flex;
-  }
-
-  .button-quiz {
-    padding-bottom: 5%;
-  }
-
-  .quiz h1 {
-    font-size: 10vw;
-    text-align: center;
-  }
-
-  .question {
-    font-size: 4vw;
-  }
-
-  .titulo-sobre {
-    text-align: center;
-  }
-
-  .coluna1 {
-    flex: 100%; /*Uma imagem 100%*/
-    max-width: 100%;
-  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -171,7 +145,7 @@ span {
   }
 
   .home__product h4 {
-    padding-left: 3%;
+    padding: 2% 0 0 3%;
   }
 
   .home__product__list {
@@ -189,15 +163,6 @@ span {
 
   .carousel h4 {
     font-size: 4.5vw;
-  }
-
-  .titulo-sobre {
-    text-align: center;
-  }
-
-  .coluna1 {
-    flex: 50%;
-    max-width: 50%;
   }
 }
 

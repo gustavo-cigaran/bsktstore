@@ -61,3 +61,31 @@
 #voltar:hover{
   background-color: #363636;
 }
+
+@media screen and (max-width: 480px) {
+  .button-quiz {
+    padding-bottom: 5%;
+  }
+
+  .quiz h1 {
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  .question {
+    font-size: 4vw;
+  }
+
+  .quiz__group {
+    display: flex;
+    align-items: center;
+  }
+
+  #results {
+    padding: 0 2%;
+  }
+
+  #submit, #voltar {
+    margin: 1%;
+  }
+}

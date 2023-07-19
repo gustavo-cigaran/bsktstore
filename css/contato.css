@@ -69,3 +69,63 @@ label {
   justify-content: center;
   padding: 4%;
 }
+
+@media screen and (max-width: 480px) {
+  .contact {
+    padding: 5%;
+  }
+
+  .contact__title {
+    padding-bottom: 1%;
+  }
+
+  .contact__page, .quiz__page {
+    width: 100%;
+  }
+
+  .quiz__page {
+    margin: 5% 0 0;
+  }
+
+  .quiz__page h2 {
+    font-size: 3em;
+    margin: 0 0 2%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .contact {
+    padding: 3%;
+  }
+
+  .contact__title {
+    padding-bottom: 1%;
+  }
+
+  .contact__page, .quiz__page {
+    width: 100%;
+  }
+
+  .quiz__page {
+    margin: 5% 0 0;
+  }
+
+  .quiz__page h2 {
+    font-size: 3em;
+    margin: 0 0 2%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact {
+    padding: 3%;
+  }
+
+  .contact__title {
+    padding-bottom: 1%;
+  }
+
+  .contact__page, .quiz__page {
+    width: 95%;
+  }
+}
