@@ -1,14 +1,17 @@
 
-# BSKT Store
+# BSKT Store 🏀
 
-Projeto de uma loja online.
+Projeto de um E-Commerce focado em artigos de basquete.
 
-https://bsktstore.web.app
+Link para o Projeto: https://bsktstore.web.app
 
-## Objetivo
+## Objetivo 🚀
 
-Esse projeto foi utilizado como trabalho final da disciplina de Desenvolvimento Web II do Técnico em Informática para Internet. Após isso continuei fazendo melhorias para deixar o projeto mais completo e também utilizar como prática.
+Esse projeto no início foi criado para ser utilizado como trabalho final da disciplina de Desenvolvimento Web II do Técnico em Informática para Internet. Após isso sigo fazendo melhorias para deixar o projeto mais completo e aplicar meus conhecimentos.
 
-## Linguagens utilizadas:
+## Tecnologias utilizadas 💻
 
-Por ter o foco apenas no Front-end utilizei -> HTML5, CSS3 e Materialize CSS.
+* HTML
+* CSS
+* JavaScript
+* Materialize CSS.
